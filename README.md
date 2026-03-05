@@ -15,13 +15,14 @@ In the incidence matrix, rows represent nodes and columns represent hyperedges. 
 The code currently includes three multiplayer games studied in the main paper: Linear Public Goods Game (LPGG), Multiplayer Snowdrift Game (MSG), and the Threshold Public Goods Game (TPGG).
 
 ### Imitation-based update rules
-The update rule is determined by two parameters:
-
-$s$ (number of selected hyperedges)
-
-$q$ (number of social peers selected from each selected hyperedge)
-
-These parameters can be freely specified in the input settings.
+The update rule is determined by two parameters: $s$ (number of selected hyperedges) and $q$ (number of social peers selected from each selected hyperedge), which can be freely specified in the code through the following two parameters:
+```bash
+s_Hyperedges, q_Neighbors
+```
+Note that whether personal information is considered is controlled by the parameter
+```bash
+considerPersonalInformationWhenUpdatingStrategy
+```
 
 ## Output
 The results are written to a text file. For example:
