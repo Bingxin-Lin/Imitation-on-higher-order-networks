@@ -3,7 +3,7 @@ This custom code performs the simulations for the paper: Structure-aware imitati
 ## Requirements
 The code is written in Julia.
 After installing the required Julia packages, the simulation can be run directly by executing the .jl file.
-## Higher-order network structure
+## Higher-order network structures
 The higher-order network is specified by an incidence matrix. For example: 
 ```bash
 HoMo-N500/NetworkStructure_HoMo_ind1_Unweighted.txt
