@@ -35,7 +35,7 @@ The file structure is as follows: First 5 rows: fixation probabilities of cooper
 
 For each row: Column 1: value of the game parameter $r$ (e.g., $r_1$ in the LPGG); Column 2: fixation probability of the corresponding strategy at that parameter value.
 
-## Parallel Computation
+## Parallel computation
 Since the simulations require a large number of repetitions, the code supports multi-core parallel computation. You can adjust the variable:
 
 ```bash
