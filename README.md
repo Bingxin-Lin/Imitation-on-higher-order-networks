@@ -30,7 +30,7 @@ These parameters can be freely specified in the input settings.
 ## Output
 The results are written to a text file. For example:
 
-HoMo-N500/ConditionalFixationProb_HoMo_ind1_w0.01.txt
+[`HoMo-N500/ConditionalFixationProb_HoMo_ind1_w0.01.txt']
 
 The file structure is as follows:
 
@@ -45,6 +45,6 @@ Since the simulations require a large number of repetitions, the code supports m
 
 You can adjust the variable:
 
-numLogicCoresUsed
+[`numLogicCoresUsed']
 
 to specify how many CPU cores are used, which can significantly accelerate the computation.
