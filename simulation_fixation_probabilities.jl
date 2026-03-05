@@ -1,6 +1,6 @@
 using Distributed
 
-numLogicCoresUsed = 2
+numLogicCoresUsed = 20
 if nprocs() < numLogicCoresUsed
     addprocs(numLogicCoresUsed - nprocs())
     println("Number of Cores:",nprocs())
@@ -317,3 +317,4 @@ end
 invasionTrialsParsInput = (numRepetitionInput, numGenerationInput,gameTypeName, selectionIntensityInput,initialNumberOfMutantsMain,s_Hyperedges,q_Neighbors,considerPersonalInformationWhenUpdatingStrategy)
 fileIOParsInput = (networkFolder, networkTypeAndIndex)
 mainProgramCalculateFpCandD(pairwiseGameParsInput, invasionTrialsParsInput, fileIOParsInput)
+
