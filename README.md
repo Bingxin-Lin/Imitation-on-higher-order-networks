@@ -1,5 +1,5 @@
 # Imitation-on-higher-order-networks
-This custom code performs the simulations for the paper: Structure-aware imitation dynamics on higher-order networks. This repository provides Julia code for computing the fixation probabilities of cooperators and defectors on a given higher-order network under different update rules in multiplayer evolutionary games.
+This custom code performs the simulations for the paper: Structure-aware imitation dynamics on higher-order networks. This repository provides Julia code for computing the fixation probabilities of cooperators and defectors on a given higher-order network under different update rules in multiplayer games.
 ## Requirements
 The code is written in Julia.
 After installing the required Julia packages, the simulation can be run directly by executing the .jl file.
