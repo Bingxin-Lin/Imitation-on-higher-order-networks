@@ -3,14 +3,14 @@ This custom code performs the simulations for the paper: Structure-aware imitati
 ## Requirements
 The code is written in Julia.
 After installing the required Julia packages, the simulation can be run directly by executing the .jl file.
-## Higher-order network Structure
+## Higher-order network structure
 The higher-order network is specified by an incidence matrix. [`NetworkStructure_HoMo_ind1_Unweighted.txt`](HoMo-N500/NetworkStructure_HoMo_ind1_Unweighted.txt)
 In the incidence matrix, rows represent nodes and columns represent hyperedges. For example, if in column 1 the entries in rows 2, 4, and 5 are 1 and all other entries are 0, this indicates that nodes 2, 4, and 5 form a hyperedge of size 3.
 
 ## Multiplayer games
 The code currently includes three multiplayer games studied in the main paper: Linear Public Goods Game (LPGG), Multiplayer Snowdrift Game (MSG), and the Threshold Public Goods Game (TPGG).
 
-## Update rules
+## Imitation-based update rules
 The update rule is determined by two parameters:
 
 $s$ (number of selected hyperedges)
